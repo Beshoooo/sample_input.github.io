@@ -1,0 +1,166 @@
+body{   
+    background-image: url(pexels-photo-327482.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+seciton
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+div
+{
+    width: 300px;
+    height:  300px;
+    position: absolute;
+    top: 30%;
+    left: 40%
+}
+
+aside 
+{  
+    width: 300px;
+    height:  300px;
+    position: relative;
+}
+
+.first_la
+{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    position: absolute;
+    top: 97px;
+}
+
+
+
+.second_la
+{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    position: absolute;
+    top: 97px;
+    animation: mov_lable 0.5s ease 0s 1 normal both ;
+}
+
+.thir_la
+{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 97px;
+    animation: mov_lable_down 0.3s ease 0s 1 normal both ;
+}
+
+
+.first_in
+{
+    padding-bottom: 3px;
+    background: none;
+    font-size: 20px;
+    color: #aaa;
+    position: absolute;
+    top: 125px;
+    border: none;
+    border-bottom: 4px solid #ccc; 
+    width: 300px;
+    
+}
+
+.second_in
+{
+    transition: border 1.5s ease;
+    background: none;
+    font-size: 20px;
+    color: #aaa;
+    position: absolute;
+    top: 125px;
+    border: none;
+    border-bottom: 4px solid #ccc; 
+    width: 300px;
+    animation: mov_input 0.3s linear 0s 1 normal both ;
+    
+}
+
+
+
+
+
+@keyframes mov_lable
+{
+    0%
+    {
+        top: 97px;
+        color: #ccc;
+        font-size: 25px;
+        
+    }
+    
+    100%
+    {
+        top: 90px;
+        color: #637EDC;
+        font-size: 20px;
+    }
+    
+}
+
+
+@keyframes mov_input
+{
+    0%
+    {
+        border-bottom-left-radius: 0%; 
+        border-bottom-color:#000000;
+         
+    }
+    
+    50%
+    {
+        border-bottom-left-radius: 500%;
+        border-bottom-color: #637EDC;
+    }  
+    
+    100%
+    {
+        border-bottom-left-radius: 0%; 
+        border-bottom-color:#637EDC;
+        
+    }
+    
+    
+}
+
+
+@keyframes mov_lable_down
+{
+    0%
+    {  
+        top: 90px;
+        color: #637EDC;
+        font-size: 20px;
+        
+    }
+    
+    100%
+    {
+      
+        top: 97px;
+        color: #ccc;
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+
+
