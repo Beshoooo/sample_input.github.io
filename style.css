@@ -116,7 +116,7 @@ aside
 {
     0%
     {
-        border: none;
+        
         border-bottom-left-radius: 0%; 
         border-bottom-color:#000000;
          
@@ -124,14 +124,14 @@ aside
     
     50%
     {
-        border: none;
+       
         border-bottom-left-radius: 500%;
         border-bottom-color: #637EDC;
     }  
     
     100%
     {
-        border: none;
+        
         border-bottom-left-radius: 0%; 
         border-bottom-color:#637EDC;
         
