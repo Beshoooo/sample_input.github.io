@@ -33,6 +33,8 @@ aside
     outline:none;
 }
 
+#in:focus::placeholder{color: #637EDC;}
+
 .first_la
 {
     font-size: 25px;
