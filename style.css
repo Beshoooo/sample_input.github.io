@@ -28,6 +28,11 @@ aside
     position: relative;
 }
 
+#in:focus
+{
+    outline:none;
+}
+
 .first_la
 {
     font-size: 25px;
